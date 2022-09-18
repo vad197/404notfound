@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 NOT FOUND</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="icon" href="./assets/devchallenges.png">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <p class="header-text">404 NOT FOUND</p>
+        </header>
+
+        <main>
+            <div class="main-img">
+                <img src="./assets/Scarecrow.png" alt="scarecrow">
+            </div>
+
+            <div class="main-content">
+                <h1 class="headline">I have bad news for you</h1>
+                <p class="description">The page you are looking for might be removed or is temporarily unavailable</p>
+                <button>Back to homepage</button>
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer-text">created by VAD - devChallenges.io</p>
+        </footer>
+    </div>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAGs9ENBcVMyk7Fi2XkVi5_5p65tzEbERs",
+          authDomain: "devchallenge-45c13.firebaseapp.com",
+          databaseURL: "https://devchallenge-45c13-default-rtdb.firebaseio.com",
+          projectId: "devchallenge-45c13",
+          storageBucket: "devchallenge-45c13.appspot.com",
+          messagingSenderId: "96092148392",
+          appId: "1:96092148392:web:7f5c5b36cf05847578289d",
+          measurementId: "G-Q6EEMX4DJH"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
